@@ -148,11 +148,11 @@ audio {
     background-size: 75px 32px;
     background-repeat: no-repeat;
     background-position: center center;
-    -webkit-mask-box-image: url("/img/logo.png");
-    background-color: white;
+    background-image: url("http://mmp.yylastian.club/blog/20200225/qMGQz1CGt8gV.png?imageslim");
+    -webkit-mask-box-image: url("http://mmp.yylastian.club/blog/20200225/qMGQz1CGt8gV.png?imageslim");
     width: 75px;
     height: 32px;
-    mask-image: url("/img/logo.png");
+    mask-image: url("http://mmp.yylastian.club/blog/20200225/qMGQz1CGt8gV.png?imageslim");
     mask-size: contain;
     transition: background-color 0.5s ease-in-out;
 }
@@ -497,7 +497,7 @@ body.touch .scrollbar {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: rgba(255, 255, 255, .97);
+    background-image: url("http://mmp.yylastian.club/blog/20200225/2g3jg8wQhpy5.jpg?imageslim");
     z-index: 3;
     top: -100%;
     -webkit-transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
