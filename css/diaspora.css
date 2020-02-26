@@ -149,6 +149,7 @@ audio {
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url("http://mmp.yylastian.club/blog/20200225/qMGQz1CGt8gV.png?imageslim");
+
     -webkit-mask-box-image: url("http://mmp.yylastian.club/blog/20200225/qMGQz1CGt8gV.png?imageslim");
     width: 75px;
     height: 32px;
