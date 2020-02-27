@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-21T06:58:00.000Z</updated>
+  <updated>2020-02-26T20:02:02.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My awesome title</title>
+    <link href="http://yoursite.com/2020/02/27/javaday1/"/>
+    <id>http://yoursite.com/2020/02/27/javaday1/</id>
+    <published>2020-02-26T20:02:02.000Z</published>
+    <updated>2020-02-26T20:02:02.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;JAVA day-1：❀❀❀❀❀❀&lt;br&gt;JAVA学习的基础篇❀❀❀❀❀❀&lt;br&gt;&lt;img src=&quot;http://mmp.yylastian.club/blog/20200226/OgtuyzWDPx3B.jpeg?imageslim&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>看我干啥</title>
