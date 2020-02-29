@@ -122,9 +122,7 @@
       
         
         
-          &lt;p&gt;#一号&lt;br&gt;##二号&lt;br&gt;&lt;strong&gt;哈哈&lt;/strong&gt;&lt;br&gt;&lt;del&gt;我的天&lt;/del&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;下载并解压企业版的压缩包，选择路径简单或者硬盘空间大的地方；&lt;br&gt;点击eclipse图标如果出现对话框，在eclipse.ini的-vm下写j
+          &lt;p&gt;下载并解压企业版的压缩包，选择路径简单或者硬盘空间大的地方；&lt;br&gt;点击eclipse图标如果出现对话框，在eclipse.ini的-vm下写jdk的默认路径
         
       
     
