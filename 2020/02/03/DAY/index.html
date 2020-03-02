@@ -47,7 +47,20 @@
     <div id="single">
     <div id="top" style="display: block;">
     <div class="bar" style="width: 0;"></div>
-   
+    <a class="icon-home image-icon" href="javascript:;" data-url="http://yoursite.com"></a>
+    <div title="播放/暂停" class="icon-play"></div>
+    <h3 class="subtitle">一张图片都很不容易</h3>
+    <div class="social">
+        <!--<div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>-->
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
     <div class="scrollbar"></div>
 </div>
 
@@ -77,18 +90,28 @@
 <hr>
 <h2 id="总结就是了：装，新建，编写，生成，检查，预览，发布"><a href="#总结就是了：装，新建，编写，生成，检查，预览，发布" class="headerlink" title="总结就是了：装，新建，编写，生成，检查，预览，发布:"></a>总结就是了：装，新建，编写，生成，检查，预览，发布:</h2>
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-            </audio>  
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='https://link.hhtjim.com/163/1300423173.mp3'></li>
+                        
+                    
+                </ul>
+            
         </div>
         
     <div id='gitalk-container' class="comment link"
         data-ae='false'
-        data-ci=''
-        data-cs=''
-        data-r=''
-        data-o=''
-        data-a=''
-        data-d='false'
+        data-ci='871e6163fa0ee502932d'
+        data-cs='109b260dd023ecf154d2dcfd81d53361de7472b0'
+        data-r='yunl6.github.io'
+        data-o='yunl6'
+        data-a='yunl6'
+        data-d='true'
     >查看评论</div>
 
 
@@ -103,8 +126,6 @@
 
     </div>
 </div>
-
-
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>

@@ -41,7 +41,20 @@
     <div id="single">
     <div id="top" style="display: block;">
     <div class="bar" style="width: 0;"></div>
-   
+    <a class="icon-home image-icon" href="javascript:;" data-url="http://yoursite.com"></a>
+    <div title="播放/暂停" class="icon-play"></div>
+    <h3 class="subtitle">总结Eclipse运行问题</h3>
+    <div class="social">
+        <!--<div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>-->
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
     <div class="scrollbar"></div>
 </div>
 
@@ -60,18 +73,28 @@
             <p>下载并解压企业版的压缩包，选择路径简单或者硬盘空间大的地方；<br>点击eclipse图标如果出现对话框，在eclipse.ini的-vm下写jdk的默认路径 默认路径中的\改成/这样就能打开了<br>要想在桌面上有图标，创建eclipse的快捷方式复制到桌面上。打开eclipse之后 如果出现建立工程的问题一个是jdk不适于eclipse运行，在eclipse的window里点开Preference找到java里的Installed JRES点Add把适用的jdk安装路径第二如果这个jdk不好用那就是jdk下的jre不好用，那就重新下载一个jre在Build path里的libraries里 Add jre的安装路径这样问题就解决了<br>这是我打开的ini 对照着打路径是你们自己的路径</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-            </audio>  
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='https://link.hhtjim.com/163/1300423173.mp3'></li>
+                        
+                    
+                </ul>
+            
         </div>
         
     <div id='gitalk-container' class="comment link"
         data-ae='false'
-        data-ci=''
-        data-cs=''
-        data-r=''
-        data-o=''
-        data-a=''
-        data-d='false'
+        data-ci='871e6163fa0ee502932d'
+        data-cs='109b260dd023ecf154d2dcfd81d53361de7472b0'
+        data-r='yunl6.github.io'
+        data-o='yunl6'
+        data-a='yunl6'
+        data-d='true'
     >查看评论</div>
 
 
@@ -86,8 +109,6 @@
 
     </div>
 </div>
-
-
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
